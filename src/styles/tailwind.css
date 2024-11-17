@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    /* p{
+@layer base {
+  /* ------ css reset ------ */
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* p{
         @apply text-body;
     } */
 }
